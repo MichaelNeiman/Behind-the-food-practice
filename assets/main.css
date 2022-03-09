@@ -1,0 +1,69 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap');
+
+/* basic stylings */
+body {
+  margin: 0;
+  width: 100%;
+  font-family: 'Didact Gothic', serif;
+  font-size: 16px;
+  background: black;
+  color: black;
+}
+
+
+.hero {
+  display: grid;
+  min-height: 100vh;
+  border: solid red 1px;
+  width: 100%;
+}
+
+.all {
+  width: 100%;
+  min-height: 100vh;
+  background: #FFDA08;
+  display: flex;
+  flex-direction: column;
+  margin-top: 10vh;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10vh;
+}
+
+h1 {
+  text-align: center;
+  font-weight: bolder;
+}
+
+.Grissom {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+  margin-left: 150px;
+  margin-right: 100px;
+}
+
+.Grissom img {
+  width: 300px;
+  height: 300px;
+}
+
+.staff {
+  display: flex;
+  margin-top: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 20px;
+}
+.staff img {
+  width: 200px;
+  height: 200px;
+}
+.work {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-right: 20px;
+
+}
